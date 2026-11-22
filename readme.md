@@ -7,7 +7,7 @@ This was Project 2 in COP3530 Data Structures and Algorithms at the University o
 ### Overview
 Finding optimal paths across large geographical networks requires efficient graph representations and heuristic-driven algorithms. Standard pathfinding approaches vary substantially in time complexity, node expansion efficiency, and memory consumption depending on graph topology and weight distribution.
 
-In this project, we implement **TrailQuest**, an interactive C++ pathfinding application evaluating **Dijkstra's Algorithm** against the **A Search Algorithm**. The underlying graph model utilizes real-world geospatial terrain and pathway data sourced from OpenStreetMap surrounding the University of Florida campus and the broader Gainesville area.
+In this project, we implement **TrailQuest**, an interactive C++ pathfinding application evaluating **Dijkstra's Algorithm** against the **A\* Search Algorithm**. The underlying graph model utilizes real-world geospatial terrain and pathway data sourced from OpenStreetMap surrounding the University of Florida campus and the broader Gainesville area.
 
 ### Core Responsibilities
 - Construct an adjacency list representation of a weighted, undirected spatial graph parsed from processed OpenStreetMap node and edge records.
